@@ -90,6 +90,8 @@ collect_file_links() {
 					fi
 				done
 				i=$(expr $i + 1)
+			else
+				SUCCESS=1
 			fi
 		done
 	done
