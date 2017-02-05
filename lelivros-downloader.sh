@@ -3,7 +3,6 @@
 # description:
 # script that downloads all e-books from https://lelivros.pro website
 
-FILE_EXTENSION="pdf"
 MAIN_URI="https://lelivros.pro"
 CATEGORIES=(
 "administracao"
@@ -45,7 +44,7 @@ BOOKS_URI_FILE="books_temp.txt"
 BOOK_URI_FILE="book_temp.txt"
 BOOK_URI_REGEX_PATTERN=$MAIN_URI"/book/[a-zA-Z0-9-]*/"
 FILE_LINK="file_links.txt"
-FILE_EXTENSION="pdf"
+FILE_EXTENSION="epub"
 FILE_LINK_REGEX_PATTERN="http://ler-agora.jegueajato.com/.*\."$FILE_EXTENSION
 
 prepare_directories(){
