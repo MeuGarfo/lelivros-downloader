@@ -91,7 +91,7 @@ collect_file_links() {
 				done
 				i=$(expr $i + 1)
 			else
-				SUCCESS=1
+				SUCCESS=1	
 			fi
 		done
 	done
@@ -121,5 +121,5 @@ download_links(){
 }
 
 prepare_directories
-#collect_file_links
+collect_file_links
 download_links
